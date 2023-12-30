@@ -24,9 +24,6 @@ function handleChange(e) {
   setForm({...form,[name]:value})
 }
 
-// template_vpkup3b
-// service_61f202v
-// XZ2Vfzth11t6X2zE3
 function handleSubmit(e) {
   e.preventDefault()
   setLoading(true)

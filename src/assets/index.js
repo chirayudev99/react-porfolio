@@ -16,6 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import next from "./tech/next.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -24,6 +25,9 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import applore from "./company/applore.svg";
+import cling from "./company/cling.png";
+import freelancer from "./company/freelancer.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -48,6 +52,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  next,
   redux,
   tailwind,
   typescript,
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  applore,
+  cling,
+  freelancer
 };

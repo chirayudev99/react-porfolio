@@ -19,6 +19,18 @@
   display: block;
 }
 
+.Tooltip {
+  /* background: rgba(0, 0, 0, 0.85); */
+  background: white;
+  color: white;
+  pointer-events: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  max-width: 400px;
+}
+
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
