@@ -13,6 +13,8 @@ import {
     nodejs,
     mongodb,
     git,
+    react_native,
+    flutter,
     figma,
     docker,
     meta,
@@ -61,6 +63,27 @@ import {
   
   const technologies = [
     {
+      name: "Next JS",
+      icon: next,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    // {
+    //   name: "React Native",
+    //   icon: react_native,
+    // },
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -76,18 +99,7 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Next JS",
-      icon: next,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+   
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -108,28 +120,27 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Cling Multi Solutions Pvt ",
-      icon: cling,
+      title: "NextJs Developer",
+      company_name: "Freelancing in Product Based Companies",
+      icon: freelancer,
       iconBg: "#E6DEDD",
-      date: "Aug 2021 - May 2022",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked for multiple product based companies on contract basis.",
+        "Reduced page load time and increased performance on 3 client websites by 40% through a number of optimization techniques.",
+        "Implemented responsive design for improved mobile experience in client project.",
       ],
     },
     {
@@ -146,17 +157,20 @@ import {
       ],
     },
     {
-      title: "NextJs Developer",
-      company_name: "Freelancing in Product Based Companies",
-      icon: freelancer,
+      title: "React.js Developer",
+      company_name: "Cling Multi Solutions Pvt ",
+      icon: cling,
       iconBg: "#E6DEDD",
-      date: "Feb 2023 - Present",
+      date: "Aug 2021 - May 2022",
       points: [
-        "Worked for multiple product based companies on contract basis.",
-        "Reduced page load time and increased performance on 3 client websites by 40% through a number of optimization techniques.",
-        "Implemented responsive design for improved mobile experience in client project.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+ 
+    
   ];
   
   const testimonials = [

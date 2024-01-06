@@ -5,6 +5,7 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { toast,Flip } from 'react-toastify'
 
 const Contact = () => {
 
@@ -26,6 +27,10 @@ function handleChange(e) {
 
 function handleSubmit(e) {
   e.preventDefault()
+  if(!form.name || !form.email){
+    toast("All the fields are required to fill",{theme:"light",transition:Flip,role:"alert"})
+return
+  }
   setLoading(true)
   emailjs.send("service_61f202v","template_vpkup3b",{
     from_name:form.name,

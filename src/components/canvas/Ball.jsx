@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -11,8 +11,10 @@ import {
 import CanvasLoader from "../Loader";
 import { Tooltip, TooltipGroup } from "../../utils/tooltip";
 
+
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
+
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -27,7 +29,8 @@ const Ball = (props) => {
           flatShading
         />
         <Decal
-          position={[0, 0, 1]}
+          position={[0,0,1]}
+          // on={() => console.log("test")}
           rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
           map={decal}
@@ -39,17 +42,28 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+
+  const ref = useRef(undefined)
+  console.log(ref.current,"ref");
+
+  useEffect(() => {
+    ref.current?.reset()
+  }, [])
+  
+
   return (
    
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      // camera={{position:[20,1,1],fov:15}}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} 
+        <OrbitControls ref={ref} enableZoom={false} 
         // autoRotate 
         // rotateSpeed={1}
+        // reset={}
          />
         
         <Ball imgUrl={icon} />
