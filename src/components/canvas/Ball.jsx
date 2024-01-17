@@ -9,7 +9,9 @@ import {
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
-import { Tooltip, TooltipGroup } from "../../utils/tooltip";
+
+
+
 
 
 const Ball = (props) => {
@@ -52,7 +54,6 @@ const BallCanvas = ({ icon }) => {
   
 
   return (
-   
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
@@ -65,8 +66,11 @@ const BallCanvas = ({ icon }) => {
         // rotateSpeed={1}
         // reset={}
          />
+   
         
         <Ball imgUrl={icon} />
+  
+
       </Suspense>
 
       <Preload all />

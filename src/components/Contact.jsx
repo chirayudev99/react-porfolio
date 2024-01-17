@@ -26,10 +26,19 @@ function handleChange(e) {
 }
 
 function handleSubmit(e) {
+  let mailFormat = new RegExp(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/);
+
   e.preventDefault()
-  if(!form.name || !form.email){
-    toast("All the fields are required to fill",{theme:"light",transition:Flip,role:"alert"})
+
+
+  if(!form.name || !form.email || !form.message){
+    toast("Kindly fill all the fields",{theme:"light",transition:Flip,role:"alert"})
 return
+  }
+
+  if(!mailFormat.test(form?.email)){
+    toast.error("Please input valid email");
+    return
   }
   setLoading(true)
   emailjs.send("service_61f202v","template_vpkup3b",{
@@ -40,12 +49,14 @@ return
     message:form.message,
   },"XZ2Vfzth11t6X2zE3").then(() => {
     setLoading(true)
-    alert("will get back to you asap")
+    toast.success("will get back to you asap")
+    // alert("will get back to you asap")
     setForm({name:"",email:"",message:""})
   }).catch(err => {
     setLoading(false)
     console.log(err);
-    alert("Something went wrong")
+    toast.error("Something went wrong")
+    // alert("Something went wrong")
   }) 
   setLoading(false)
 }
@@ -74,7 +85,7 @@ className='bg-tertiary py-4 px-6 rounded-lg outline-none placeholder:text-second
 <label className='flex flex-col' >
   <span className='text-white font-medium mb-4' >Your Email</span>
   <input 
-type='email'
+type='text'
 name='email'
 value={form.email}
 onChange={handleChange}
@@ -88,7 +99,7 @@ rows={7}
 name='message'
 value={form.message}
 onChange={handleChange}
-placeholder="What do you want to say?"
+placeholder="Kindly provide your contact detail in this box with your message"
 className='bg-tertiary py-4 px-6 rounded-lg outline-none placeholder:text-secondary text-white border-none font-medium'
   />
 </label>

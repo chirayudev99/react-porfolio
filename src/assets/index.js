@@ -31,6 +31,7 @@ import applore from "./company/applore.svg";
 import cling from "./company/cling.png";
 import freelancer from "./company/freelancer.png";
 import tesla from "./company/tesla.png";
+import vidfin from "./company/vidfin.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,5 +71,6 @@ export {
   tripguide,
   applore,
   cling,
-  freelancer
+  freelancer,
+  vidfin
 };

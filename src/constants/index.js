@@ -29,6 +29,7 @@ import {
     cling,
     applore,
     freelancer,
+    vidfin
   } from "../assets";
   
   export const navLinks = [
@@ -133,14 +134,14 @@ import {
   const experiences = [
     {
       title: "NextJs Developer",
-      company_name: "Freelancing in Product Based Companies",
-      icon: freelancer,
+      company_name: "Vidfin Technologies",
+      icon: vidfin,
       iconBg: "#E6DEDD",
       date: "Feb 2023 - Present",
       points: [
-        "Worked for multiple product based companies on contract basis.",
-        "Reduced page load time and increased performance on 3 client websites by 40% through a number of optimization techniques.",
-        "Implemented responsive design for improved mobile experience in client project.",
+        "Integration of various third party libraries and features such as vdocipher or firebase dynamic links",
+        "Reduced page load time and increased performance on client website by 40% through a number of optimization techniques.",
+        "Implemented responsive design for improved mobile experience.",
       ],
     },
     {
