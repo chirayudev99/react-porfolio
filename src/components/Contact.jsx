@@ -37,7 +37,7 @@ return
   }
 
   if(!mailFormat.test(form?.email)){
-    toast.error("Please input valid email");
+    toast.error("Please input valid email",{theme:"light",transition:Flip,role:"alert"});
     return
   }
   setLoading(true)
@@ -49,13 +49,13 @@ return
     message:form.message,
   },"XZ2Vfzth11t6X2zE3").then(() => {
     setLoading(true)
-    toast.success("will get back to you asap")
+    toast.success("Thanks! I will contact you soon",{theme:"light",transition:Flip,role:"alert"})
     // alert("will get back to you asap")
     setForm({name:"",email:"",message:""})
   }).catch(err => {
     setLoading(false)
     console.log(err);
-    toast.error("Something went wrong")
+    toast.error("Something went wrong",{theme:"light",transition:Flip,role:"alert"})
     // alert("Something went wrong")
   }) 
   setLoading(false)
