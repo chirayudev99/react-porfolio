@@ -140,8 +140,9 @@ import {
       date: "Feb 2023 - Present",
       points: [
         "Integration of various third party libraries and features such as vdocipher or firebase dynamic links",
-        "Reduced page load time and increased performance on client website by 40% through a number of optimization techniques.",
-        "Implemented responsive design for improved mobile experience.",
+        "Reduced 20% of page load time, increased performance optimization by 50% through a number of optimization techniques.",
+        "Implemented responsive design for improved mobile experience and better UI.",
+        "Improved SEO of website by implementing dynamic meta tags and Server-Side Rendering (SSR) techniques"
       ],
     },
     {
@@ -153,8 +154,8 @@ import {
       points: [
         "Worked on 10+ web development projects that were based on Nextjs,React Js, NodeJs and MONGODB. Worked in collaboration with the DevOps team to deploy and launch websites.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Was responsible for mentoring front-end developers and handling clients",
-        "Responsible for US based medical project and certified with `HIPPA Associate` ",
+        "Responsible for mentoring front-end developers, lead the project and managing clients",
+        "Managed US based medical project and certified with “HIPPA Associate”",
       ],
     },
     {
