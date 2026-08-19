@@ -32,10 +32,13 @@ import cling from "./company/cling.png";
 import freelancer from "./company/freelancer.png";
 import tesla from "./company/tesla.png";
 import vidfin from "./company/vidfin.png";
+import ascendion from "./company/ascendion.jpg";
+import innex from "./company/INNEX.png";
+import markmind from "./company/markmind.png";
+import choicemonk from "./company/choicemonk.png";
+import chauffeur from "./company/chauffeur.png";
+import chatgpt from "./company/chatgpt.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -66,11 +69,15 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+
   applore,
   cling,
   freelancer,
-  vidfin
+  vidfin,
+  ascendion,
+  innex,
+  markmind,
+  choicemonk,
+  chauffeur,
+  chatgpt
 };

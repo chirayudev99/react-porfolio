@@ -40,14 +40,16 @@ const About = () => {
 </motion.div>
 <motion.p variants={fadeIn("","",0.1,1)} 
 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]' >
-Passionate Frontend Developer with a knack for creating intuitive and
-high-performing web applications with over 3 years of experience in
-successfully managing and delivering a diverse range of projects in both
-corporate and freelance capacities. Proficient in JavaScript, Bootstrap,
-Module Css, React,NextJs and intermediate in Node.js, MongoDB , React
-Native and Flutter. Adept at quickly grasping new technologies, including
-Flutter and React Native, and integrating them into project development.
-Demonstrated ability to work independently as a freelance
+Full Stack Engineer | Building Scalable Web & AI-Powered Products
+<br /><br />
+
+With 6+ years of experience building production-ready web applications, SaaS platforms, and AI-powered products, I specialize in React.js, Next.js, Node.js, and TypeScript, with a strong focus on performance, scalability, and clean architecture.
+<br /><br />
+
+From turning ideas into MVPs to optimizing and scaling existing products, I enjoy solving complex problems and building software that actually delivers business value. I’ve worked across healthcare, fintech, education, e-commerce, and GenAI — collaborating with startups, enterprises, and international clients.
+<br /><br />
+
+I thrive on exploring new technologies and applying them to solve real-world problems. Let’s connect and discuss how I can contribute to your next big idea!<br /><br />
 </motion.p>
 <div className='mt-20 flex flex-wrap gap-10  ' >
 {services.map((service,idx) => (

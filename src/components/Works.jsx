@@ -58,12 +58,11 @@ const Works = () => {
 <div className='w-full flex' >
 <motion.p variants={fadeIn("","",0.1,1)} 
 className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]' >
-Passionate Frontend Developer with a knack for creating intuitive and
-high-performing web applications with over 3 years of experience in
-successfully managing and delivering a diverse range of projects in both
-corporate and freelance capacities. Proficient in JavaScript, Bootstrap,
-Module Css, React,NextJs and intermediate in Node.js, MongoDB , React
-Native and Flutter.
+Full Stack Engineer| Delivering Scalable, User-Centric Solutions | 5+ Years of Experience <br /><br />
+
+I am a versatile Full Stack Developer with over 5 years of experience designing and delivering web and mobile applications that are intuitive, scalable, and performance-driven. Proficient in leveraging modern technologies like React.js, Next.js, Node.js, and MongoDB, I excel at crafting seamless user experiences and robust backend systems and experienced in dealing with Generative AI. <br /><br />
+
+My journey includes successfully managing diverse projects across corporate and freelance roles, utilizing tools such as GitLab CI/CD, Docker, and AWS to optimize workflows and ensure efficient delivery. I also have hands-on experience in mobile development with React Native and Flutter, enabling me to create cross-platform applications with ease.<br /><br />
 </motion.p>
 </div>
 <div className='mt-20 flex flex-wrap gap-7' >
