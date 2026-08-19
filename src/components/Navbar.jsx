@@ -22,7 +22,7 @@ onClick={() => {
 >
 {/* create and get my own logo from logo.com */}
 <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-<p className='text-white text-[18px] font-bold cursor-pointer flex' >Chirayu &nbsp; | &nbsp; <span className='sm:block hidden' >Frontend Developer</span></p>
+<p className='text-white text-[18px] font-bold cursor-pointer flex' >Chirayu &nbsp; | &nbsp; <span className='sm:block hidden' >Full-Stack Engineer</span></p>
 </Link> 
 <ul className='list-none hidden sm:flex flex-row gap-10' >
 {navLinks.map((link) => (
