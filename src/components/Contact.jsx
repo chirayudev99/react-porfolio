@@ -49,7 +49,7 @@ return
     message:form.message,
   },"XZ2Vfzth11t6X2zE3").then(() => {
     setLoading(true)
-    toast.success("Thanks! I will contact you soon",{theme:"light",transition:Flip,role:"alert"})
+    toast.success("Thanks! We will contact you soon",{theme:"light",transition:Flip,role:"alert"})
     // alert("will get back to you asap")
     setForm({name:"",email:"",message:""})
   }).catch(err => {

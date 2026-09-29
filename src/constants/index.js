@@ -32,7 +32,9 @@ import {
     markmind,
     choicemonk,
     chauffeur,
-    chatgpt
+    chatgpt,
+    krypton,
+    askchirayu
   } from "../assets";
   
   export const navLinks = [
@@ -235,7 +237,8 @@ const projects = [
   {
     name: "MarkMind AI",
     description:
-      "GenAI-powered education platform that automates assignment grading and feedback for teachers using OpenAI and Anthropic models, with a scalable React and Node.js architecture.",
+      "Oxford University Innovation Startup Incubator selected - AI EdTech platform connecting teachers and students through automated assessment and contextual feedback, built with full-stack architecture",
+      
     tags: [
       {
         name: "react",
@@ -255,11 +258,11 @@ const projects = [
       },
     ],
     image: markmind,
-    source_code_link: "https://github.com/",
+    source_code_link: false,
   },
 
   {
-    name: "Innex AI",
+    name: "Complimind AI",
     description:
       "Healthcare GenAI copilot designed to help professionals navigate governance documents, regulations, standards, and industry best practices through an intelligent and interactive interface.",
     tags: [
@@ -281,13 +284,13 @@ const projects = [
       },
     ],
     image: innex,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://complimind.co.uk/",
   },
 
   {
     name: "Choicemonk",
     description:
-      "SaaS product recommendation platform that helps users research, compare, and evaluate products through intelligent search, filtering, sorting, and personalized recommendations.",
+      "SaaS product recommendation platform that helps users research, compare, and evaluate products through intelligent search, filtering, sorting, and personalized recommendations to help you make best purchasing decision",
     tags: [
       {
         name: "nextjs",
@@ -307,7 +310,7 @@ const projects = [
       },
     ],
     image: choicemonk,
-    source_code_link: "https://github.com/",
+    source_code_link: false,
   },
 
   {
@@ -333,13 +336,13 @@ const projects = [
       },
     ],
     image: vidfin,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://vidfin.com",
   },
 
   {
-    name: "ChatGPT Clone",
+    name: "AskChirayu",
     description:
-      "Full-stack AI conversational application powered by OpenAI, featuring authentication, persistent chat history, search, pagination, and context-aware conversational workflows.",
+      "Portfolio-aware AI assistant that turns Chirayu's experience, projects, and technical knowledge into an interactive conversational experience with contextual responses",
     tags: [
       {
         name: "typescript",
@@ -358,34 +361,34 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: chatgpt,
-    source_code_link: "https://github.com/",
+    image: askchirayu,
+    source_code_link: "https://ask-chirayu-ai.vercel.app",
   },
 
   {
-    name: "Chauffeur Booking Platform",
+    name: "Krypton",
     description:
-      "Full-stack chauffeur booking platform with real-time driver tracking, route estimation, online payments, dynamic pricing, booking management, and automated confirmation workflows.",
+      "Real-time cryptocurrency market intelligence platform combining live WebSocket data, market APIs, interactive financial charts, and optimized Next.js data-fetching workflows",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "websocket",
         color: "pink-text-gradient",
       },
       {
-        name: "realtime",
+        name: "charts",
         color: "orange-text-gradient",
       },
     ],
-    image: chauffeur,
-    source_code_link: "https://github.com/",
+    image: krypton,
+    source_code_link: "https://krypton-curr.vercel.app",
   },
 ];
 

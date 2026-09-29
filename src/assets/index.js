@@ -38,6 +38,8 @@ import markmind from "./company/markmind.png";
 import choicemonk from "./company/choicemonk.png";
 import chauffeur from "./company/chauffeur.png";
 import chatgpt from "./company/chatgpt.png";
+import krypton from "./company/krypton.png";
+import askchirayu from "./company/askchirayu.png";
 
 
 export {
@@ -79,5 +81,7 @@ export {
   markmind,
   choicemonk,
   chauffeur,
-  chatgpt
+  chatgpt,
+  krypton,
+  askchirayu
 };
